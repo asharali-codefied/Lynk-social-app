@@ -1,0 +1,72 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS Finder settings
+Icon?
+.Spotlight-V100
+.Trashes
+
+# Xcode
+*.xcworkspace
+!default.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+DerivedData/
+build/
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+podfile.lock
+
+# SwiftPM binary artifacts
+.artifacts/
+
+# Archives
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftLint / SwiftFormat
+.swiftlint.yml
+.swiftformat
+
+# Firebase
+GoogleService-Info.plist
+
+# Personal / Secrets
+*.env
+*.key
+*.p12
+*.mobileprovision
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Logs
+*.log
+
+# Debug
+*.swp
+*.tmp
+*.orig
+
+# VSCode settings
+.vscode/
