@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F58FC0D2E243923001B96CD /* LaunchVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F58FC0C2E243923001B96CD /* LaunchVideoViewController.swift */; };
+		1F58FC0F2E243CCA001B96CD /* launch-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1F58FC0E2E243CCA001B96CD /* launch-video.mp4 */; };
+		1F58FC132E244009001B96CD /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F58FC102E244009001B96CD /* GetStartedViewController.swift */; };
+		1F58FC142E244009001B96CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F58FC112E244009001B96CD /* LoginViewController.swift */; };
+		1F58FC162E24423F001B96CD /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F58FC152E24423F001B96CD /* bg.png */; };
+		1F58FC182E2456BD001B96CD /* google-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F58FC172E2456BD001B96CD /* google-30.png */; };
+		1F58FC1A2E245EF0001B96CD /* logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F58FC192E245EF0001B96CD /* logo-white.png */; };
 		1FF10F052E242C2B0026F1EB /* MockDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF10EFE2E242C2B0026F1EB /* MockDataManager.swift */; };
 		1FF10F062E242C2B0026F1EB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF10EF52E242C2B0026F1EB /* Theme.swift */; };
 		1FF10F072E242C2B0026F1EB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF10F012E242C2B0026F1EB /* BaseViewController.swift */; };
@@ -38,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F58FC0C2E243923001B96CD /* LaunchVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchVideoViewController.swift; sourceTree = "<group>"; };
+		1F58FC0E2E243CCA001B96CD /* launch-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "launch-video.mp4"; sourceTree = "<group>"; };
+		1F58FC102E244009001B96CD /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		1F58FC112E244009001B96CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F58FC152E24423F001B96CD /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		1F58FC172E2456BD001B96CD /* google-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-30.png"; sourceTree = "<group>"; };
+		1F58FC192E245EF0001B96CD /* logo-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-white.png"; sourceTree = "<group>"; };
 		1FF10EB62E242A360026F1EB /* lynk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lynk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF10ECC2E242A390026F1EB /* lynkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lynkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF10ED62E242A390026F1EB /* lynkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lynkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F58FC122E244009001B96CD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1F58FC102E244009001B96CD /* GetStartedViewController.swift */,
+				1F58FC112E244009001B96CD /* LoginViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		1FF10EAD2E242A360026F1EB = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +179,10 @@
 		1FF10EFC2E242C2B0026F1EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1F58FC192E245EF0001B96CD /* logo-white.png */,
+				1F58FC172E2456BD001B96CD /* google-30.png */,
+				1F58FC152E24423F001B96CD /* bg.png */,
+				1F58FC0E2E243CCA001B96CD /* launch-video.mp4 */,
 				1FF10EF82E242C2B0026F1EB /* .env */,
 				1FF10EF92E242C2B0026F1EB /* Assets.xcassets */,
 				1FF10EFA2E242C2B0026F1EB /* Info.plist */,
@@ -183,6 +210,8 @@
 		1FF10F032E242C2B0026F1EB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1F58FC122E244009001B96CD /* Auth */,
+				1F58FC0C2E243923001B96CD /* LaunchVideoViewController.swift */,
 				1FF10F012E242C2B0026F1EB /* BaseViewController.swift */,
 				1FF10F022E242C2B0026F1EB /* FeedViewController.swift */,
 			);
@@ -313,8 +342,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F58FC1A2E245EF0001B96CD /* logo-white.png in Resources */,
+				1F58FC162E24423F001B96CD /* bg.png in Resources */,
+				1F58FC182E2456BD001B96CD /* google-30.png in Resources */,
 				1FF10F0D2E242C2B0026F1EB /* LaunchScreen.storyboard in Resources */,
 				1FF10F0E2E242C2B0026F1EB /* .env in Resources */,
+				1F58FC0F2E243CCA001B96CD /* launch-video.mp4 in Resources */,
 				1FF10F0F2E242C2B0026F1EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,11 +374,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF10F052E242C2B0026F1EB /* MockDataManager.swift in Sources */,
+				1F58FC0D2E243923001B96CD /* LaunchVideoViewController.swift in Sources */,
 				1FF10F062E242C2B0026F1EB /* Theme.swift in Sources */,
 				1FF10F072E242C2B0026F1EB /* BaseViewController.swift in Sources */,
 				1FF10F082E242C2B0026F1EB /* AppDelegate.swift in Sources */,
 				1FF10F092E242C2B0026F1EB /* SceneDelegate.swift in Sources */,
 				1FF10F0A2E242C2B0026F1EB /* FeedViewController.swift in Sources */,
+				1F58FC132E244009001B96CD /* GetStartedViewController.swift in Sources */,
+				1F58FC142E244009001B96CD /* LoginViewController.swift in Sources */,
 				1FF10F0B2E242C2B0026F1EB /* APIClient.swift in Sources */,
 				1FF10F0C2E242C2B0026F1EB /* Environment.swift in Sources */,
 			);
